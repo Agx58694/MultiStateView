@@ -15,6 +15,10 @@
         android:title="Toggle Empty View"
         app:showAsAction="never" />
     <item
+        android:id="@+id/disconnect"
+        android:title="Toggle Disconnect View"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/content"
         android:title="Toggle Content View"
         app:showAsAction="never" />

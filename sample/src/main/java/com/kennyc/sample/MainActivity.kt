@@ -58,6 +58,11 @@ class MainActivity : AppCompatActivity(), MultiStateView.StateListener {
                 return true
             }
 
+            R.id.disconnect -> {
+                multiStateView.viewState = MultiStateView.ViewState.DISCONNECT
+                return true
+            }
+
             R.id.loading -> {
                 multiStateView.viewState = MultiStateView.ViewState.LOADING
                 return true
